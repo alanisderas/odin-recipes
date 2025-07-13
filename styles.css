@@ -1,0 +1,93 @@
+html { 
+    box-sizing: border-box;  
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A9A9A9;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.tittle {
+    background-color: #8FBC8F;
+    padding: 8px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 50pc;
+    color: #800000;
+    font-size: 30px;
+    
+}
+
+.container {
+    margin: 20px auto;
+    padding: 8px;
+    border: 5px solid #FF1493;
+    background-color: #FFA07A;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.images {
+    padding: 16px;
+    font-size: 15px;
+    
+}
+
+img {
+    border-radius: 50px;
+    margin-bottom: 12px;
+   
+}
+
+
+
+ul { 
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    text-align: left;
+    font-size: 15px;
+    
+}
+
+ol {
+    padding: 20px;
+    margin: 5px;
+    text-align: left;
+    list-style-type: decimal;
+    font-size: 15px;
+    
+}
+
+a {
+    background-color: #8FBC8F;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration-line: none;
+
+}
+h2,
+h3 {
+    color: #800000;
+    font-size: 30px;
+    
+}
